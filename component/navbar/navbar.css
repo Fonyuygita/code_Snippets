@@ -1,0 +1,61 @@
+/* Styling our navbar */
+.navbar {
+    border-bottom: 1px solid black;
+    width: 100%;
+   
+    /* z-index: 1; */
+    background-color: #222;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 100px;
+    /* padding-bottom: 4rem; */
+}
+
+.navbar .container .logo h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar .container .logo h1 span {
+    color: red;
+}
+
+.navbar .container .nav-links {
+    display: flex;
+}
+
+.navbar .container .nav-links .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar .container .nav-links .links h6:hover {
+    color: blue;
+}
+
+.navbar .container .nav-links .links .write {
+    background-color: lightgreen;
+    padding: 24px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+
+.navbar .container .nav-links .links .write:hover {
+    background-color: white;
+    color: teal;
+    border: 1px solid lightgreen;
+}
